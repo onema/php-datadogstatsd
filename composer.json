@@ -1,9 +1,9 @@
 {
-    "name": "datadog/php-datadogstatsd",
+    "name": "onema/php-datadogstatsd",
     "type": "library",
-    "description": "This is an extremely simple PHP datadogstatsd client",
+    "description": "This is an extremely simple PHP datadogstatsd client. This is a fork of the library found in the https://www.datadoghq.com/ github repository.",
     "keywords": ["DataDog", "PHP"],
-    "homepage": "https://www.datadoghq.com/",
+    "homepage": "https://github.com/onema/php-datadogstatsd",
     "license": "MIT",
     "authors": [
     	{
@@ -15,16 +15,19 @@
             "name": "Datadog",
             "email": "dev@datadoghq.com",
             "role": "Developer"
+        },
+        {
+            "name": "Juan Manuel Torres",
+            "email": "kinojman@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
       "php": ">=5.3.0"
     },
     "support": {
-    	"email": "package@datadoghq.com",
-    	"irc": "irc://irc.freenode.net/datadog",
-    	"issues": "https://github.com/DataDog/php-datadogstatsd/issues",
-    	"source": "https://github.com/DataDog/php-datadogstatsd"
+    	"issues": "https://github.com/onema/php-datadogstatsd/issues",
+    	"source": "https://github.com/onema/php-datadogstatsd"
     },
     "autoload": {
         "psr-4": {
