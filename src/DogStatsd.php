@@ -316,6 +316,6 @@ class DogStatsd
             throw new \Exception(sprintf('Event "%s" payload is too big (more that 8KB), event discarded', $title));
         }
 
-        $this->send($string);
+        $this->report($string);
     }
 }
